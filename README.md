@@ -9,9 +9,9 @@ It includes optional graphing support via **[matplotlib-cpp](https://github.com/
 
 The RK4 method is a powerful **numerical technique** for approximating solutions to initial value problems of the form:
 
-\[
+$$
 \frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0
-\]
+$$
 
 This project:
 - Implements a reusable RK4 solver in C++.  
